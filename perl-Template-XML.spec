@@ -6,8 +6,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Template
 %define		pnam	XML
-Summary:	Fast, powerful and easily extensible template processing system
-Summary(pl):	Rozbudowany i wydajny system szablonów
+Summary:	Template::XML - XML plugins for the Template Toolkit
+Summary(pl):	Template::XML - wtyczki XML dla Template Toolkit
 Name:		perl-Template-XML
 Version:	2.16
 Release:	0.1
@@ -35,10 +35,21 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-#TODO
+The Template-XML distribution provides a number of Template Toolkit
+plugin modules for working with XML.
+
+This package contains eg. the Template::Plugin::XML module being a
+front-end to the various other XML plugin modules and the
+Template::Plugin::XML::File module through which you can access XML
+files.
 
 %description -l pl
-#TODO
+Dystrybucja Template-XML udostêpnia kilka modu³ów bêd±cych wtyczkami
+dla Template Toolkit do pracy z XML-em.
+
+Pakiet ten zawiera m.in. modu³ Template::Plugin::XML, bêd±cy frontendem
+dla ró¿nych innych modu³ów-wtyczek XML-owych oraz modu³
+Template::Plugin::XML::File umo¿liwiaj±cy dostêp do plików w XML-u.
 
 %package -n Template-Plugin-XML-DOM
 Summary:	XML::DOM plugin for Template Toolkit
