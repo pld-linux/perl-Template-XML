@@ -14,8 +14,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Template/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f18d8d6d2ce4920f4d5af1a3474285b6
+URL:		http://search.cpan.org/dist/Template-XML/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl(File::Spec) >= 0.6
 BuildRequires:	perl-AppConfig >= 1.52
@@ -23,11 +24,11 @@ BuildRequires:	perl-AppConfig >= 1.52
 BuildRequires:	perl-Pod-POM >= 0.1
 BuildRequires:	perl-Text-Autoformat >= 1.03
 BuildRequires:	perl-Template-Toolkit >= 2.15
+BuildRequires:	perl-XML-DOM >= 1.27
 BuildRequires:	perl-XML-Parser >= 2.23
 BuildRequires:	perl-XML-RSS >= 0.9
 BuildRequires:	perl-XML-Simple
 BuildRequires:	perl-XML-XPath >= 1.00
-BuildRequires:	perl-XML-DOM >= 1.27
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Template-Toolkit >= 2.15
@@ -48,8 +49,8 @@ files.
 Dystrybucja Template-XML udostêpnia kilka modu³ów bêd±cych wtyczkami
 dla Template Toolkit do pracy z XML-em.
 
-Pakiet ten zawiera m.in. modu³ Template::Plugin::XML, bêd±cy frontendem
-dla ró¿nych innych modu³ów-wtyczek XML-owych oraz modu³
+Pakiet ten zawiera m.in. modu³ Template::Plugin::XML, bêd±cy
+frontendem dla ró¿nych innych modu³ów-wtyczek XML-owych oraz modu³
 Template::Plugin::XML::File umo¿liwiaj±cy dostêp do plików w XML-u.
 
 %package -n perl-Template-Plugin-XML-DOM
