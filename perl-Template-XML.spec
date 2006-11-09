@@ -17,13 +17,13 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Template/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f18d8d6d2ce4920f4d5af1a3474285b6
 URL:		http://search.cpan.org/dist/Template-XML/
-BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl(File::Spec) >= 0.6
 BuildRequires:	perl-AppConfig >= 1.52
+BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with autodeps} || %{with tests}
 BuildRequires:	perl-Pod-POM >= 0.1
-BuildRequires:	perl-Text-Autoformat >= 1.03
 BuildRequires:	perl-Template-Toolkit >= 2.15
+BuildRequires:	perl-Text-Autoformat >= 1.03
 BuildRequires:	perl-XML-DOM >= 1.27
 BuildRequires:	perl-XML-Parser >= 2.23
 BuildRequires:	perl-XML-RSS >= 0.9
@@ -57,7 +57,7 @@ Template::Plugin::XML::File umo¿liwiaj±cy dostêp do plików w XML-u.
 Summary:	XML::DOM plugin for Template Toolkit
 Summary(pl):	Wtyczka XML::DOM dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-DOM
 
 %description -n perl-Template-Plugin-XML-DOM
@@ -72,15 +72,15 @@ XML::DOM.
 Summary:	XML::RSS plugin for Template Toolkit - parsing RSS files
 Summary(pl):	Wtyczka XML::RSS dla pakietu Template Toolkit - analiza plików RSS
 Group:		Development/Languages/Perl
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-RSS
 
 %description -n perl-Template-Plugin-XML-RSS
 XML::RSS plugin for Template Toolkit - interface to the XML::RSS
 module. It creates an XML::RSS object, which is then used to parse
-specified RSS file. An RSS (Rich Site Summary) file is typically
-used to store short news 'headlines' describing different links
-within a site.
+specified RSS file. An RSS (Rich Site Summary) file is typically used
+to store short news 'headlines' describing different links within a
+site.
 
 %description -n perl-Template-Plugin-XML-RSS -l pl
 Wtyczka XML::RSS dla pakietu Template Toolkit - interfejs do modu³u
@@ -93,7 +93,7 @@ odno¶niki na witrynie.
 Summary:	XML::Simple plugin for Template Toolkit
 Summary(pl):	Wtyczka XML::Simple dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-Simple
 
 %description -n perl-Template-Plugin-XML-Simple
@@ -108,7 +108,7 @@ XML::Simple.
 Summary:	XML::XPath plugin for Template Toolkit
 Summary(pl):	Wtyczka XML::XPath dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-XPath
 
 %description -n perl-Template-Plugin-XML-XPath
