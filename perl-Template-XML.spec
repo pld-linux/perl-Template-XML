@@ -7,7 +7,7 @@
 %define		pdir	Template
 %define		pnam	XML
 Summary:	Template::XML - XML plugins for the Template Toolkit
-Summary(pl):	Template::XML - wtyczki XML dla Template Toolkit
+Summary(pl.UTF-8):   Template::XML - wtyczki XML dla Template Toolkit
 Name:		perl-Template-XML
 Version:	2.16
 Release:	1
@@ -45,17 +45,17 @@ front-end to the various other XML plugin modules and the
 Template::Plugin::XML::File module through which you can access XML
 files.
 
-%description -l pl
-Dystrybucja Template-XML udostêpnia kilka modu³ów bêd±cych wtyczkami
+%description -l pl.UTF-8
+Dystrybucja Template-XML udostÄ™pnia kilka moduÅ‚Ã³w bÄ™dÄ…cych wtyczkami
 dla Template Toolkit do pracy z XML-em.
 
-Pakiet ten zawiera m.in. modu³ Template::Plugin::XML, bêd±cy
-frontendem dla ró¿nych innych modu³ów-wtyczek XML-owych oraz modu³
-Template::Plugin::XML::File umo¿liwiaj±cy dostêp do plików w XML-u.
+Pakiet ten zawiera m.in. moduÅ‚ Template::Plugin::XML, bÄ™dÄ…cy
+frontendem dla rÃ³Å¼nych innych moduÅ‚Ã³w-wtyczek XML-owych oraz moduÅ‚
+Template::Plugin::XML::File umoÅ¼liwiajÄ…cy dostÄ™p do plikÃ³w w XML-u.
 
 %package -n perl-Template-Plugin-XML-DOM
 Summary:	XML::DOM plugin for Template Toolkit
-Summary(pl):	Wtyczka XML::DOM dla pakietu Template Toolkit
+Summary(pl.UTF-8):   Wtyczka XML::DOM dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-DOM
@@ -64,13 +64,13 @@ Obsoletes:	perl-Template-Toolkit-Plugin-XML-DOM
 XML::DOM plugin for Template Toolkit - interface to the XML::DOM
 module.
 
-%description -n perl-Template-Plugin-XML-DOM -l pl
-Wtyczka XML::DOM dla pakietu Template Toolkit - interfejs do modu³u
+%description -n perl-Template-Plugin-XML-DOM -l pl.UTF-8
+Wtyczka XML::DOM dla pakietu Template Toolkit - interfejs do moduÅ‚u
 XML::DOM.
 
 %package -n perl-Template-Plugin-XML-RSS
 Summary:	XML::RSS plugin for Template Toolkit - parsing RSS files
-Summary(pl):	Wtyczka XML::RSS dla pakietu Template Toolkit - analiza plików RSS
+Summary(pl.UTF-8):   Wtyczka XML::RSS dla pakietu Template Toolkit - analiza plikÃ³w RSS
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-RSS
@@ -82,16 +82,16 @@ specified RSS file. An RSS (Rich Site Summary) file is typically used
 to store short news 'headlines' describing different links within a
 site.
 
-%description -n perl-Template-Plugin-XML-RSS -l pl
-Wtyczka XML::RSS dla pakietu Template Toolkit - interfejs do modu³u
-XML::RSS. Tworzy on obiekt XML::RSS, który mo¿na u¿yæ do analizy
+%description -n perl-Template-Plugin-XML-RSS -l pl.UTF-8
+Wtyczka XML::RSS dla pakietu Template Toolkit - interfejs do moduÅ‚u
+XML::RSS. Tworzy on obiekt XML::RSS, ktÃ³ry moÅ¼na uÅ¼yÄ‡ do analizy
 podanego pliku RSS. Pliki RSS (Rich Site Summary - obfite streszczenie
-witryny) zwykle s± u¿ywane do zapisywania krótkich nowinek opisuj±cych
-odno¶niki na witrynie.
+witryny) zwykle sÄ… uÅ¼ywane do zapisywania krÃ³tkich nowinek opisujÄ…cych
+odnoÅ›niki na witrynie.
 
 %package -n perl-Template-Plugin-XML-Simple
 Summary:	XML::Simple plugin for Template Toolkit
-Summary(pl):	Wtyczka XML::Simple dla pakietu Template Toolkit
+Summary(pl.UTF-8):   Wtyczka XML::Simple dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-Simple
@@ -100,13 +100,13 @@ Obsoletes:	perl-Template-Toolkit-Plugin-XML-Simple
 XML::Simple plugin for Template Toolkit - interface to the XML::Simple
 module.
 
-%description -n perl-Template-Plugin-XML-Simple -l pl
-Wtyczka XML::Simple dla pakietu Template Toolkit - interfejs do modu³u
+%description -n perl-Template-Plugin-XML-Simple -l pl.UTF-8
+Wtyczka XML::Simple dla pakietu Template Toolkit - interfejs do moduÅ‚u
 XML::Simple.
 
 %package -n perl-Template-Plugin-XML-XPath
 Summary:	XML::XPath plugin for Template Toolkit
-Summary(pl):	Wtyczka XML::XPath dla pakietu Template Toolkit
+Summary(pl.UTF-8):   Wtyczka XML::XPath dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-XPath
@@ -120,14 +120,14 @@ seamless integration with Template Toolkit VIEWs. The
 XML::XPath::Node::Text module is also adorned with a present($view)
 method which presents itself via the view using the 'text' template.
 
-%description -n perl-Template-Plugin-XML-XPath -l pl
-Wtyczka XML::XPath dla pakietu Template Toolkit - bêd±ca interfejsem
-do modu³u XML::XPath. Dostêpne s± wszystkie metody zaimplementowane w
-modu³ach XML::XPath, a ponadto modu³ XML::XPath::Node::Element zawiera
-implementacje metod present($view) i content($view) do spójnej
-integracji z widokami Toolkitu. Modu³ XML::XPath::Node::Text jest
-dodatkowo ulepszony o metodê present($view) prezentuj±c± siê przez
-widok przy u¿yciu szablonu 'text'.
+%description -n perl-Template-Plugin-XML-XPath -l pl.UTF-8
+Wtyczka XML::XPath dla pakietu Template Toolkit - bÄ™dÄ…ca interfejsem
+do moduÅ‚u XML::XPath. DostÄ™pne sÄ… wszystkie metody zaimplementowane w
+moduÅ‚ach XML::XPath, a ponadto moduÅ‚ XML::XPath::Node::Element zawiera
+implementacje metod present($view) i content($view) do spÃ³jnej
+integracji z widokami Toolkitu. ModuÅ‚ XML::XPath::Node::Text jest
+dodatkowo ulepszony o metodÄ™ present($view) prezentujÄ…cÄ… siÄ™ przez
+widok przy uÅ¼yciu szablonu 'text'.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
