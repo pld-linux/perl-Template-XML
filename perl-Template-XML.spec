@@ -7,7 +7,7 @@
 %define		pdir	Template
 %define		pnam	XML
 Summary:	Template::XML - XML plugins for the Template Toolkit
-Summary(pl.UTF-8):   Template::XML - wtyczki XML dla Template Toolkit
+Summary(pl.UTF-8):	Template::XML - wtyczki XML dla Template Toolkit
 Name:		perl-Template-XML
 Version:	2.16
 Release:	1
@@ -55,7 +55,7 @@ Template::Plugin::XML::File umożliwiający dostęp do plików w XML-u.
 
 %package -n perl-Template-Plugin-XML-DOM
 Summary:	XML::DOM plugin for Template Toolkit
-Summary(pl.UTF-8):   Wtyczka XML::DOM dla pakietu Template Toolkit
+Summary(pl.UTF-8):	Wtyczka XML::DOM dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-DOM
@@ -70,7 +70,7 @@ XML::DOM.
 
 %package -n perl-Template-Plugin-XML-RSS
 Summary:	XML::RSS plugin for Template Toolkit - parsing RSS files
-Summary(pl.UTF-8):   Wtyczka XML::RSS dla pakietu Template Toolkit - analiza plików RSS
+Summary(pl.UTF-8):	Wtyczka XML::RSS dla pakietu Template Toolkit - analiza plików RSS
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-RSS
@@ -91,7 +91,7 @@ odnośniki na witrynie.
 
 %package -n perl-Template-Plugin-XML-Simple
 Summary:	XML::Simple plugin for Template Toolkit
-Summary(pl.UTF-8):   Wtyczka XML::Simple dla pakietu Template Toolkit
+Summary(pl.UTF-8):	Wtyczka XML::Simple dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-Simple
@@ -106,7 +106,7 @@ XML::Simple.
 
 %package -n perl-Template-Plugin-XML-XPath
 Summary:	XML::XPath plugin for Template Toolkit
-Summary(pl.UTF-8):   Wtyczka XML::XPath dla pakietu Template Toolkit
+Summary(pl.UTF-8):	Wtyczka XML::XPath dla pakietu Template Toolkit
 Group:		Development/Languages/Perl
 Requires:	%{name} = %{version}-%{release}
 Obsoletes:	perl-Template-Toolkit-Plugin-XML-XPath
