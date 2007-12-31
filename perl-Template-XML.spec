@@ -9,13 +9,13 @@
 Summary:	Template::XML - XML plugins for the Template Toolkit
 Summary(pl.UTF-8):	Template::XML - wtyczki XML dla Template Toolkit
 Name:		perl-Template-XML
-Version:	2.16
+Version:	2.17
 Release:	1
 # same as perl
 License:	GPL v1+ or or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Template/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f18d8d6d2ce4920f4d5af1a3474285b6
+# Source0-md5:	21a381e6d7da26c78b25e6a1f3e98fff
 URL:		http://search.cpan.org/dist/Template-XML/
 BuildRequires:	perl(File::Spec) >= 0.6
 BuildRequires:	perl-AppConfig >= 1.52
